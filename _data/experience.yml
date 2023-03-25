@@ -4,8 +4,16 @@
   position: Senior Software Engineer
   duration: 2017 &ndash; Present
   summary: >
+    <p>Handling all aspects of the development process, from design to production, I help analyze product requirements, establish an approriate software architecture and implement the technical solutions.</p>
     <ul>
-      
+      <li>As a member of the Infrastructure Team, I provide the plumbing between microservices of the JFrog Platform: ACL, configuration, event handling, routing, and third party integrations</li>
+      <li>Development in Go and Java is quality oriented with a focus on testability</li>
+    </ul>
+    
+    <p>My role as a cybersecurity purple team member, led me to act as a liaison between R&amp;D and Application Security to help analyze and mitigate potential vulnerabilities. Over two years, we reduced the number of medium, high, and critical CVEs from several hundred to zero</p>
+    <ul>
+      <li>I participate in security oriented code reviews, specification analysis, and penetration tests</li>
+      <li>I developed an internal tool to automate the handling of security vulnerabilites which has been adoped by the entire R&amp;D</li>
     </ul>
 
 - company: Berger Levrault
@@ -18,9 +26,3 @@
       <li>Worked within an Agile team designing and implementing software features</li>
       <li>Participated in a continuous improvement process with a focus on software quality</li>     
     </ul>
-
-# Communications Coordinator
-# - company: Springfield Women & Children's Center
-#   position: Communications Coordinator
-#   duration:   Jun, 2008  &mdash; May, 2010
-#   summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
