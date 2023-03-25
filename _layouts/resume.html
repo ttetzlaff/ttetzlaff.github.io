@@ -13,7 +13,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="images/profile.jpg" alt="my photo" class="avatar no-print" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -36,7 +36,7 @@
         </div>
 
         <div class="executive-summary" itemprop="description">
-          {{ site.resume_header_intro }}
+          {{ site.data.summary.text }}
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
@@ -88,8 +88,13 @@
               {% endfor %}
             </ul>
 
-
+          {% if education.summary %}
           <p class="resume-item-copy">{{ education.summary }}</p>
+          {% endif %}
+          {% if education.link %}
+          <p class="resume-item-copy">{{ education.link.description }}: <a href="{{ education.link.url }}" itemprop="url">{{ education.link.text }}</a></p>
+          {% endif %}
+          
         </div>
         {% endfor %}
       </section>
@@ -203,7 +208,7 @@
           <h2>Additional Links</h2>
         </header>
 
-        <div class="resume-item">
+        <div class="resume-item">          
           <ul class="resume-item-list">
             {% for link in site.data.links %}
             <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
@@ -231,9 +236,9 @@
       <!-- end Print Social Links -->
       {% endif %}
 
-      <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+      <footer class="page-footer">        
+        <p class="footer-line">Find me on <a href="{{ site.resume_social_links.resume_linkedin_url }}">LinkedIn</a>, <a href="{{ site.resume_social_links.resume_github_profile }}">GitHub</a>, or 
+          <a rel="me" href="{{ site.resume_social_links.resume_mastodon_url }}">Mastodon.</p>        
       </footer>
 
     </div>
