@@ -4,13 +4,15 @@
   position: Senior Software Engineer
   duration: 2017 &ndash; Present
   summary: >
-    <p>Handling all aspects of the development process, from design to production, I help analyze product requirements, establish an approriate software architecture and implement the technical solutions.</p>
+    Handling all aspects of the development process, from design to production, I help analyze product requirements, establish an approriate software architecture and implement the technical solutions.
+    
     <ul>
       <li>As a member of the Infrastructure Team, I provide the plumbing between microservices of the JFrog Platform: ACL, configuration, event handling, routing, and third party integrations</li>
       <li>Development in Go and Java is quality oriented with a focus on testability</li>
     </ul>
     
-    <p>My role as a cybersecurity purple team member, led me to act as a liaison between R&amp;D and Application Security to help analyze and mitigate potential vulnerabilities. Over two years, we reduced the number of medium, high, and critical CVEs from several hundred to zero</p>
+    My role as a cybersecurity purple team member, led me to act as a liaison between R&amp;D and Application Security to help analyze and mitigate potential vulnerabilities. Over two years, we reduced the number of medium, high, and critical CVEs from several hundred to zero.
+    
     <ul>
       <li>I participate in security oriented code reviews, specification analysis, and penetration tests</li>
       <li>I developed an internal tool to automate the handling of security vulnerabilites which has been adoped by the entire R&amp;D</li>
@@ -20,6 +22,7 @@
   position: Analyste Technique
   duration: 2013 &ndash; 2017
   summary: >
+  
     <ul>
       <li>Migrated compilation scripts and project structure of a large legacy application to Maven</li>
       <li>Established a Continuous Integration Platform using Jenkins</li>
