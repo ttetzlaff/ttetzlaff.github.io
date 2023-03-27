@@ -1,5 +1,6 @@
 # Degree
-- degree: "Engineer: Architecture, Systems and Software"
+- degree: Engineering Degree (<i class="resume-item-details award-title">Diplôme d'Ingénieur</i>)
+  description: Architecture, Systems and Software (<i class="resume-item-details award-title">Architecture et Ingénierie des Systèmes et des Logiciels</i>)
   uni: Conservatoire National des Arts et Métiers
   year: 2012 &ndash; 2016  
   link: 
@@ -8,6 +9,7 @@
     text: A Collaborative Approach to Code Quality Within an Agile Context
   award: Mention très bien
 
-- degree: "Bachelor of Arts: French Literature, Art History"
+- degree: Bachelor of Arts
+  description: French Literature, Art History
   uni: University of Hawaii at Manoa
   year: 1998 &ndash; 2000 &amp; 2004 &ndash; 2006
