@@ -74,18 +74,13 @@
   font-weight: 800;
 }
 
-@mixin serif {
-  font-family: "Lora", "Minion Pro", Palatino, Georgia, serif;
+@mixin mono {
+  font-family: "JetBrains Mono", "Courier New", monospace;
 }
 
-@mixin serif_regular {
-  @include serif;
-  font-weight: 400;
-}
-
-@mixin serif_bold {
-  @include serif;
-  font-weight: 700;
+@mixin mono_bold {
+  @include mono;
+  font-weight: 800;
 }
 
 // layout
