@@ -4,7 +4,7 @@
   position: Senior Software Engineer
   duration: 2017&ndash;Present
   summary: >
-          <p>Member of the Infrastructure Team, providing the plumbing between micro services of the JFrog Platform: ACL, configuration, event handling, routing, webhooks, and third party integrations.</p>
+          <p>Member of the Infrastructure Team, providing the plumbing between micro services of the JFrog DevOps Platform: ACL, configuration, event handling, routing, webhooks, and third party integrations.</p>
           <ul>
             <li>Handle all aspects of the development process, from design to production</li>
             <li>Analyze product requirements, establish an approriate software architecture and implement the technical solutions</li>
