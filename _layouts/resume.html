@@ -99,7 +99,7 @@
           <p class="resume-item-copy">{{ education.summary }}</p>
           {% endif %}
           {% if education.link %}
-          <p class="resume-item-copy">{{ education.link.description }}: <a href="{{ education.link.url }}" itemprop="url">{{ education.link.text }}</a></p>
+          <p class="resume-item-copy">{{ education.link.description }}: <a href="{{ education.link.url }}" itemprop="url" target="_blank">{{ education.link.text }}</a></p>
           {% endif %}
         </div>
         {% endfor %}
@@ -115,9 +115,8 @@
           <h2>Skills</h2>
         </header>
         {% for skill in site.data.skills %}
-        <div class="resume-item">
-          <h4 class="resume-item-details resume-item-skill-title">{{ skill.skill }}</h4>
-          <p class="resume-item-copy resume-item-skill-desc">{{ skill.description }}</p>
+        <div class="resume-item-skill">
+          <p><span class="resume-item-details resume-item-skill-title">{{ skill.skill }}: </span><span class="resume-item-copy resume-item-skill-desc">{{ skill.description }}</span></p>
         </div>
         {% endfor %}
 

@@ -83,8 +83,8 @@ ul li::before {
   color: #8b8b8b;
   font-weight: bold;
   display: inline-block; 
-  width: 1em;
-  margin-left: -1em;
+  width: 1.2em;
+  margin-left: -1.5em;
 }
 
 .icon-links {
@@ -153,6 +153,7 @@ ul li::before {
   margin: 0 0 3rem;
 
   .resume-item { margin-bottom: 2rem; }
+  .resume-item-skill { margin-bottom: 1rem; }
 
   .resume-item-title {
     @include mono_bold;
