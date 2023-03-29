@@ -55,6 +55,10 @@ resume_social_links:
   # resume_medium_url:            ""
 resume_print_social_links:      false
 
+exclude:
+  - Gemfile*
+  - README.md
+
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
 # to _config.yml are only recognized when the server starts
