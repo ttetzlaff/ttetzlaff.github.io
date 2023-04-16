@@ -1,10 +1,10 @@
 # Skills
 
 - skill: Programming
-  description: Go, Java, Python, SQL, LaTeX
+  description: Go, Java, Python, Bash, SQL, LaTeX
 
 - skill: Tools
-  description: Git, Artifactory, CI/CD, Docker, Kubernetes
+  description: Git, Artifactory (JFrog Platform), CI/CD, Docker, Kubernetes
 
 - skill: Languages
   description: English (bilingual), French (bilingual)

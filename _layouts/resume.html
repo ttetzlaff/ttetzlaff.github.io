@@ -13,15 +13,12 @@
 
       <header class="page-header">
 
-        <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
         <img src="images/profile.jpg" alt="my photo" class="avatar no-print" itemprop="image">
         {% endif %}
 
-        <!-- Your name is defined in the _config.yml file -->
         <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
 
-        <!-- To display contact info here, change `display_header_contact_info` value in _config.yml to true -->
         {% if site.display_header_contact_info == 'true' %}
         <div class="header-contact-info">
           <p>{{ site.resume_header_contact_info }}</p>
@@ -29,11 +26,7 @@
         {% endif %}
 
         <div class="title-bar no-print">
-
-          <!-- Your title is also defined in the _config.yml file -->
           <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
-
-          <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
           {% include icon-links.html %}
         </div>
 
@@ -51,7 +44,7 @@
       </header>
 
       {% if site.resume_section_experience %}
-      <!-- begin Experience -->
+      <!-- Experience -->
       <section class="content-section">
 
         <header class="section-header">
@@ -63,16 +56,15 @@
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details group" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
           <div class="resume-item-copy">{{ job.summary }}</div>
-        </div><!-- end of resume-item -->
+        </div>
         {% endfor %}
 
       </section>
-      <!-- end Experience -->
       {% endif %}
 
 
       {% if site.resume_section_education %}
-      <!-- begin Education -->
+      <!-- Education -->
       <section class="content-section">
         <header class="section-header">
           <h2>Education</h2>
@@ -104,11 +96,10 @@
         </div>
         {% endfor %}
       </section>
-      <!-- end Education -->
       {% endif %}
 
       {% if site.resume_section_skills %}
-      <!-- begin Skills -->
+      <!-- Skills -->
       <section class="content-section">
 
         <header class="section-header">
@@ -121,7 +112,6 @@
         {% endfor %}
 
       </section>
-      <!-- end Skills -->
       {% endif %}
 
       <footer class="page-footer no-print">        
