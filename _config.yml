@@ -34,6 +34,7 @@ display_header_contact_info:    "false"
 resume_section_experience:      true
 resume_section_education:       true
 resume_section_skills:          true
+resume_section_misc:          true
 # resume_section_projects:        false
 # resume_section_recognition:     false
 # resume_section_links:           false

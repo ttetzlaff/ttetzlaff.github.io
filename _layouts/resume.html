@@ -114,6 +114,22 @@
       </section>
       {% endif %}
 
+      {% if site.resume_section_misc %}
+      <!-- Miscellaneous -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Miscellaneous</h2>
+        </header>
+        {% for misc in site.data.misc %}
+        <div class="resume-item-skill">
+          <p><span class="resume-item-details resume-item-skill-title">{{ misc.misc }}: </span><span class="resume-item-copy resume-item-skill-desc">{{ misc.description }}</span></p>
+        </div>
+        {% endfor %}
+
+      </section>
+      {% endif %}
+
       <footer class="page-footer no-print">        
         <p class="footer-line">Find me on <a href="{{ site.resume_social_links.resume_linkedin_url }}">LinkedIn</a>, <a href="{{ site.resume_social_links.resume_github_profile }}">GitHub</a>, or <a rel="me" href="{{ site.resume_social_links.resume_mastodon_url }}">Mastodon.</a></p>        
       </footer>
