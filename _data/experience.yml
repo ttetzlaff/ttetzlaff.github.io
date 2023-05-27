@@ -6,7 +6,7 @@
   summary: >
           <p>Member of the Infrastructure Team, providing the cross-cutting concerns of the microservice architecture of the JFrog DevOps Platform: access control, configuration, event handling, request routing, webhooks, and third party integrations.</p>
           <ul>            
-            <li>Analyze product requirements, establish an approriate software architecture and implement the technical solutions</li>
+            <li>Analyze product requirements, establish an appropriate software architecture and implement the technical solutions</li>
             <li>Handle all stages of the development process, from design to production</li>
             <li>Develop quality oriented services in Go, Java, and Python with a focus on efficiency and testability</li>
             <li>Onboard and mentor new and junior team members</li>
@@ -16,7 +16,7 @@
           <ul>            
             <li>Act as a liaison between R&amp;D and Application Security to help analyze and mitigate potential vulnerabilities. Over two years, the number of open medium, high, and critical CVEs was reduced from several hundred to zero</li>
             <li>Participate in security oriented code reviews, specification analysis, and penetration tests</li>
-            <li>Eliminate developer pain point by developing an internal tool to automate the handling of security vulnerabilities. This tool has been adoped by the entire R&amp;D</li>
+            <li>Eliminate developer pain point by developing an internal tool to automate the handling of security vulnerabilities. This tool has been adopted by the entire R&amp;D</li>
           </ul>
 
 - company: Berger Levrault
