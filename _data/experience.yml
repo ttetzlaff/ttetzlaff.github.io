@@ -7,9 +7,10 @@
           <p>Member of the Infrastructure Team, providing the cross-cutting concerns of the microservice architecture of the JFrog DevOps Platform: access control, configuration, event handling, request routing, webhooks, and third party integrations.</p>
           <ul>            
             <li>Analyze product requirements, establish an appropriate software architecture and implement the technical solutions</li>
-            <li>Handle all stages of the development process, from design to production</li>
             <li>Develop quality oriented services in Go, Java, and Python with a focus on efficiency and testability</li>
-            <li>Onboard and mentor new and junior team members</li>
+            <li>Handle all stages of the development process, from design and development to deployment and maintenance in Kubernetes</li>
+            <li>Operate YBIYRI (You Build It You Run It) DevOps oriented development and deployment</li>
+            <li>Establish monitoring dashboards and alerts based on logs and metrics to efficiently identify and troubleshoot issues</li>
           </ul>
           
           <p>Member of the Cybersecurity Security Champion Guild.</p>
