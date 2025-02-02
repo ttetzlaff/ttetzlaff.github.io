@@ -1,8 +1,17 @@
 # Jobs
 
+- company: Loft Orbital
+  position: Senior Software Engineer
+  duration: 2024$dash;Present
+  summary: >
+          <ul>
+            <li>Analyze product requirements, establish an appropriate software architecture and implement the technical solutions for a test case
+    management system</li>
+            <li>Handle all stages of the development process, from design and development to deployment and maintenance in Kubernetes</li>
+          </ul>
 - company: JFrog
   position: Senior Software Engineer
-  duration: 2017&ndash;Present
+  duration: 2017&ndash;2024
   summary: >
           <p>Member of the Infrastructure Team, providing the cross-cutting concerns of the microservice architecture of the JFrog DevOps Platform: access control, configuration, event handling, request routing, webhooks, and third party integrations.</p>
           <ul>            
