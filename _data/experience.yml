@@ -4,39 +4,38 @@
   position: Senior Software Engineer
   duration: 2024$dash;Present
   summary: >
-          <ul>
-            <li>Analyze product requirements, establish an appropriate software architecture and implement the technical solutions for a test case
-    management system</li>
-            <li>Handle all stages of the development process, from design and development to deployment and maintenance in Kubernetes</li>
-          </ul>
+    <ul>
+      <li>Analyze product requirements, establish an appropriate software architecture and implement the technical solutions for a test case management system</li>
+      <li>Handle all stages of the development process, from design and development to deployment and maintenance in Kubernetes</li>
+    </ul>
 
 - company: JFrog
   position: Senior Software Engineer
   duration: 2017&ndash;2024
   summary: >
-          <p>Member of the Infrastructure Team, providing the cross-cutting concerns of the microservice architecture of the JFrog DevOps Platform: access control, configuration, event handling, request routing, webhooks, and third party integrations.</p>
-          <ul>            
-            <li>Analyze product requirements, establish an appropriate software architecture and implement the technical solutions</li>
-            <li>Develop quality oriented services in Go, Java, and Python with a focus on efficiency and testability</li>
-            <li>Handle all stages of the development process, from design and development to deployment and maintenance in Kubernetes</li>
-            <li>Operate YBIYRI (You Build It You Run It) DevOps oriented development and deployment</li>
-            <li>Establish monitoring dashboards and alerts based on logs and metrics to efficiently identify and troubleshoot issues</li>
-          </ul>
-          
-          <p>Member of the Cybersecurity Security Champion Guild.</p>
-          <ul>            
-            <li>Act as a liaison between R&amp;D and Application Security to help analyze and mitigate potential vulnerabilities. Over two years, the number of open medium, high, and critical CVEs was reduced from several hundred to zero</li>
-            <li>Participate in security oriented code reviews, specification analysis, and penetration tests</li>
-            <li>Eliminate developer pain point by developing an internal tool to automate the handling of security vulnerabilities. This tool has been adopted by the entire R&amp;D</li>
-          </ul>
+    <p>Member of the Infrastructure Team, providing the cross-cutting concerns of the microservice architecture of the JFrog DevOps Platform: access control, configuration, event handling, request routing, webhooks, and third party integrations.</p>
+    <ul>            
+      <li>Analyze product requirements, establish an appropriate software architecture and implement the technical solutions</li>
+      <li>Develop quality oriented services in Go, Java, and Python with a focus on efficiency and testability</li>
+      <li>Handle all stages of the development process, from design and development to deployment and maintenance in Kubernetes</li>
+      <li>Operate YBIYRI (You Build It You Run It) DevOps oriented development and deployment</li>
+      <li>Establish monitoring dashboards and alerts based on logs and metrics to efficiently identify and troubleshoot issues</li>
+    </ul>
+    
+    <p>Member of the Cybersecurity Security Champion Guild.</p>
+    <ul>            
+      <li>Act as a liaison between R&amp;D and Application Security to help analyze and mitigate potential vulnerabilities. Over two years, the number of open medium, high, and critical CVEs was reduced from several hundred to zero</li>
+      <li>Participate in security oriented code reviews, specification analysis, and penetration tests</li>
+      <li>Eliminate developer pain point by developing an internal tool to automate the handling of security vulnerabilities. This tool has been adopted by the entire R&amp;D</li>
+    </ul>
 
 - company: Berger Levrault
   position: Analyste Technique
   duration: 2013&ndash;2017
   summary: >
-          <ul>
-            <li>Migrated compilation scripts and project structure of a large legacy application to Maven</li>
-            <li>Established a Continuous Integration Platform using Jenkins</li>
-            <li>Worked within an Agile team designing and implementing software features</li>
-            <li>Participated in a continuous improvement process with a focus on software quality</li>     
-          </ul>
+    <ul>
+      <li>Migrated compilation scripts and project structure of a large legacy application to Maven</li>
+      <li>Established a Continuous Integration Platform using Jenkins</li>
+      <li>Worked within an Agile team designing and implementing software features</li>
+      <li>Participated in a continuous improvement process with a focus on software quality</li>     
+    </ul>
